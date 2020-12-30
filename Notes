@@ -1,0 +1,44 @@
+=>
+mongodb
+=================
+Database Name /collection name
+-----------------
+EmployeeProject
+
+collection Name
+----------------
+EmpDetail
+****************************************************************************************************************
+
+db url
+-------------
+mongodb+srv://admin:<password>@cluster0.hnmno.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+"mongodb+srv://mongodbUser:admin@cluster0.hnmno.mongodb.net/Emp_app?retryWrites=true&w=majority"
+
+****************************************************************************************************************
+restApis
+=============
+//http://localhost:8080/login           (POST)
+//http://localhost:8080/registration    (POST)
+//http://localhost:8080/employees       (GET)
+//http://localhost:8080/newemployee     (POST)
+//http://localhost:8080/updateemployee  (PUT)
+//http://localhost:8080/deleteemployee  (DELETE)
+
+
+**********************************************************************************
+
+
+Create Services
+===================
+employees.Services.ts having function getEmployees()
+addemployee.Services.ts having function addEmployee()
+updateemployee.Services.ts having function updateeEmployee()
+deleteeemployee.Services.ts having function deleteEmployee()
+
+**********************************************************************************
+ 
+
+
+
